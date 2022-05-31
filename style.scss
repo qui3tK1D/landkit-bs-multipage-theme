@@ -82,6 +82,10 @@ body {
   padding-top: 7.5rem;
 }
 
+.padding-t-status {
+  padding-top: 10rem;
+}
+
 .cta-padding {
   padding: 6rem 0 7rem;
 }
@@ -337,8 +341,7 @@ body {
 
 /* shape */
 .shape-accent {
-  /* color: var(--border-light); */
-  color: red;
+  color: var(--border-light);
   position: absolute;
   right: 0;
   left: 0;
@@ -356,7 +359,9 @@ body {
 .status {
   background: var(--border-light);
   color: var(--my-blue-accent) !important;
+  margin-top: -19rem;
 }
+
 .status-text-control {
   max-width: 500px;
 }
@@ -410,6 +415,7 @@ body {
 /* cta small */
 .ctasmall {
   background: var(--dark-blue);
+  margin-top: -1px;
 }
 
 .started-pill {
@@ -613,6 +619,10 @@ body {
 
   .my-mb-6 {
     margin-bottom: 2.5rem;
+  }
+
+  .status {
+    margin-top: -20rem;
   }
 }
 
