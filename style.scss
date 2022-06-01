@@ -78,12 +78,16 @@ body {
   padding-top: 6rem;
 }
 
+.padding-b-lg {
+  padding-bottom: 6rem;
+}
+
 .padding-t-xl {
   padding-top: 7.5rem;
 }
 
 .padding-t-status {
-  padding-top: 10rem;
+  padding-top: 12rem;
 }
 
 .cta-padding {
@@ -570,12 +574,6 @@ body {
   }
 }
 
-/* @media (max-width: 800px) {
-    .hero-img-control {
-      max-width: 100%;
-    }
-  } */
-
 @media (max-width: 767px) {
   html {
     font-size: 90%;
@@ -607,6 +605,7 @@ body {
 
   .price {
     padding-top: 4.5rem;
+    padding-bottom: 3rem;
   }
 
   .cta-padding {
@@ -625,10 +624,3 @@ body {
     margin-top: -20rem;
   }
 }
-
-/* 
-  @media (max-width: 576px) {
-    .featureIcon {
-      width: 100%;
-    }
-  } */

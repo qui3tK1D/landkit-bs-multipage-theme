@@ -74,7 +74,6 @@ const costCounter = function () {
 
 switcher.addEventListener("change", function () {
   this.dataset.checked = !check;
-  console.log(this.dataset.checked);
   check = !check;
 
   if (this.dataset.checked === "true") {
@@ -152,6 +151,7 @@ const footerText = {
   smartBackspace: false,
   showCursor: false,
 };
+
 new Waypoint({
   element: document.querySelector(".footerQuote"),
   handler: function () {
