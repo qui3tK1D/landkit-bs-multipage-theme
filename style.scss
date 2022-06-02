@@ -572,6 +572,11 @@ body {
   .fqa-text-control {
     max-width: 100%;
   }
+
+  .img1,
+  .img2 {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
 }
 
 @media (max-width: 767px) {
