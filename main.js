@@ -1,10 +1,10 @@
 "use strict";
 import "./style.scss";
-import "./node_modules/bootstrap/dist/js/bootstrap.bundle";
+import * as bootstrap from "bootstrap";
 import Typed from "typed.js";
-import "./node_modules/waypoints/lib/noframework.waypoints";
+import "waypoints/lib/noframework.waypoints.min";
 import counterUp from "counterup2";
-import "./node_modules/scrollreveal/dist/scrollreveal";
+import ScrollReveal from "scrollreveal";
 
 // toggle nav open, close
 const btnMobile = document.querySelector(".btn-mobile");
