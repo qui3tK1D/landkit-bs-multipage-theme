@@ -104,7 +104,7 @@ ScrollReveal().reveal(".slideBot", slideBot);
 const slideLeft = {
   distance: "90px",
   origin: "left",
-  duration: 600,
+  duration: 800,
   cleanup: true,
   easing: "ease-out",
   delay: 200,
@@ -114,7 +114,7 @@ ScrollReveal().reveal(".slideLeft", slideLeft);
 const slideRight = {
   distance: "90px",
   origin: "right",
-  duration: 600,
+  duration: 800,
   cleanup: true,
   easing: "ease-out",
   delay: 200,
