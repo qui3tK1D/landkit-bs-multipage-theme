@@ -197,7 +197,7 @@
 /* status */
 .status {
   background: var(--border-light);
-  color: var(--my-blue-accent) !important;
+  color: var(--my-blue-accent);
   margin-top: -19rem;
 }
 
@@ -208,7 +208,7 @@
 /* price */
 .price {
   background: var(--border-light);
-  color: var(--my-blue-accent) !important;
+  color: var(--my-blue-accent);
 }
 
 /* switch */
@@ -218,13 +218,12 @@
   background-image: url("/images/switcher.svg") !important;
 }
 
-.btn-standard,
 .btn-enterprise {
-  border-radius: 0 !important;
+  border-radius: 0;
 }
 
 .btn-enterprise {
-  background: var(--border-light) !important;
+  background: var(--border-light);
 }
 
 .card1-over2 {

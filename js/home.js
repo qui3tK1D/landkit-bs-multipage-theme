@@ -1,6 +1,6 @@
 "use strict";
-import "../scss/home.scss";
 import "../main.js";
+import "../scss/home.scss";
 import * as bootstrap from "bootstrap";
 import "waypoints/lib/noframework.waypoints.min";
 import counterUp from "counterup2";

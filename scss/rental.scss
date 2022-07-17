@@ -64,7 +64,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   color: var(--dark-blue) !important;
-  transition: all 0.3s ease !important;
+  transition: all 0.3s ease;
 }
 
 .heroBtnIcon:hover {
@@ -80,7 +80,7 @@
 
 .ctaBtn {
   position: relative;
-  transition: all 0.3s ease !important;
+  transition: all 0.3s ease;
 }
 
 .heroBtnIcon::after,
@@ -124,7 +124,7 @@
 /* hero des */
 
 .rentalHeroBtn {
-  background: #fff !important;
+  background: #fff;
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.1);
 }
 
@@ -146,7 +146,7 @@
 }
 
 .circle-badge {
-  padding: 0.7rem 0.8rem !important;
+  padding: 0.7rem 0.8rem;
   background: var(--my-primary-accent);
 }
 

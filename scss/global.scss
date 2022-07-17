@@ -247,6 +247,10 @@ body {
   border-bottom: 1px solid var(--border-light);
 }
 
+.btn-standard {
+  border-radius: 0;
+}
+
 /* dropdown */
 
 .dropdown:hover .dropdown-menu {
