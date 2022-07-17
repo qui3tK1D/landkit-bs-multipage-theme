@@ -21,6 +21,7 @@
   <body>
     <main class="overflow-hidden">
       <section class="pb-4">
+        <!-- nav bar -->
         <nav class="navbar navbar-light px-2 py-3 myNav">
           <div class="container align-items-center">
             <div class="me-5">
@@ -31,17 +32,509 @@
               <ul
                 class="d-flex justify-content-lg-center gap-5 list-unstyled mb-0"
               >
-                <li>
-                  <a class="main-nav-link" href="#">Landings</a>
+                <li class="dropdown">
+                  <a
+                    class="main-nav-link"
+                    id="landings"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    href="#"
+                    >Landings</a
+                  >
+                  <div
+                    class="dropdown-menu dropdown-new px-4"
+                    aria-labelledby="landings"
+                  >
+                    <div class="container">
+                      <div class="row">
+                        <!-- col-1 -->
+                        <div class="col-6">
+                          <!-- list1 -->
+                          <ul
+                            class="d-flex flex-column gap-2 list-unstyled mb-4"
+                          >
+                            <li>
+                              <h1
+                                class="text-uppercase footer-header mb-1 text-primary"
+                              >
+                                Services
+                              </h1>
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="#">Coworking</a>
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="rental.html"
+                                >Rental</a
+                              >
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="#">Job Listing</a>
+                            </li>
+                          </ul>
+
+                          <!-- list2 -->
+                          <ul
+                            class="d-flex flex-column gap-2 list-unstyled mb-0"
+                          >
+                            <li>
+                              <h1
+                                class="text-uppercase footer-header mb-1 text-primary"
+                              >
+                                Apps
+                              </h1>
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="#">Desktop</a>
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="#">Mobile</a>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!-- col-2 -->
+                        <div class="col-6">
+                          <!-- list1 -->
+                          <ul class="d-flex flex-column gap-2 list-unstyled">
+                            <li>
+                              <h1
+                                class="text-uppercase footer-header mb-1 text-primary"
+                              >
+                                Web
+                              </h1>
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="index.html"
+                                >Basic</a
+                              >
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="#">Startup</a>
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="#">Enterprise</a>
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="#">Service</a>
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="#"
+                                >Cloud Hosting</a
+                              >
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="#">Agency</a>
+                            </li>
+                            <li>
+                              <a class="main-nav-link" href="#"
+                                >Framework
+                                <span
+                                  class="text-uppercase footer-header mb-2 text-primary"
+                                  >(new)</span
+                                ></a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </li>
-                <li>
-                  <a class="main-nav-link" href="#">Pages</a>
+                <li class="dropdown">
+                  <a
+                    class="main-nav-link"
+                    id="pages"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    href="#"
+                    >Pages</a
+                  >
+                  <div
+                    class="dropdown-menu dropdown-new px-4"
+                    aria-labelledby="pages"
+                  >
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6">
+                          <div class="row">
+                            <!-- career and company -->
+                            <div class="col-6">
+                              <!-- list1 -->
+                              <!-- career -->
+                              <ul
+                                class="d-flex flex-column gap-2 list-unstyled mb-4-2"
+                              >
+                                <li>
+                                  <h1
+                                    class="text-uppercase footer-header mb-1 text-primary"
+                                  >
+                                    Career
+                                  </h1>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Listing</a>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Opening</a>
+                                </li>
+                              </ul>
+                              <!-- list2 -->
+                              <!-- company -->
+                              <ul
+                                class="d-flex flex-column gap-2 list-unstyled mb-4-2"
+                              >
+                                <li>
+                                  <h1
+                                    class="text-uppercase footer-header mb-1 text-primary"
+                                  >
+                                    Company
+                                  </h1>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">About</a>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Pricing</a>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Terms</a>
+                                </li>
+                              </ul>
+                            </div>
+
+                            <!-- help and contact -->
+                            <div class="col-6">
+                              <!-- list3 -->
+                              <!-- help -->
+                              <ul
+                                class="d-flex flex-column gap-2 list-unstyled mb-4-2"
+                              >
+                                <li>
+                                  <h1
+                                    class="text-uppercase footer-header mb-1 text-primary"
+                                  >
+                                    Help Center
+                                  </h1>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Overview</a>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Article</a>
+                                </li>
+                              </ul>
+
+                              <!-- list4 -->
+                              <!-- contact -->
+                              <ul
+                                class="d-flex flex-column gap-2 list-unstyled mb-0"
+                              >
+                                <li>
+                                  <h1
+                                    class="text-uppercase footer-header mb-1 text-primary"
+                                  >
+                                    Contact
+                                  </h1>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="index.html"
+                                    >Basic</a
+                                  >
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Cover</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- blog and portfolio -->
+                        <div class="col-6">
+                          <div class="row">
+                            <div class="col-6">
+                              <!-- list1 -->
+                              <!-- blog -->
+                              <ul
+                                class="d-flex flex-column gap-2 list-unstyled mb-4-2"
+                              >
+                                <li>
+                                  <h1
+                                    class="text-uppercase footer-header mb-1 text-primary"
+                                  >
+                                    Blog
+                                  </h1>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#"
+                                    >Rich View</a
+                                  >
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Article</a>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Showcase</a>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Search</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-6">
+                              <!-- list2 -->
+                              <!-- portfolio -->
+                              <ul
+                                class="d-flex flex-column gap-2 list-unstyled mb-5"
+                              >
+                                <li>
+                                  <h1
+                                    class="text-uppercase footer-header mb-1 text-primary"
+                                  >
+                                    Portfolio
+                                  </h1>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Masonary</a>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#"
+                                    >Grid Rows</a
+                                  >
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Parallax</a>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#"
+                                    >Case Study</a
+                                  >
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#">Sidebar</a>
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#"
+                                    >Sidebar: Fluid</a
+                                  >
+                                </li>
+                                <li>
+                                  <a class="main-nav-link" href="#"
+                                    >Basic Grid</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </li>
-                <li>
-                  <a class="main-nav-link" href="#">Account</a>
+                <li class="dropdown">
+                  <a
+                    class="main-nav-link"
+                    id="account"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    href="#"
+                    >Account</a
+                  >
+                  <div
+                    class="dropdown-menu dropdown-new dropdown-setting px-3 py-4"
+                    aria-labelledby="account"
+                  >
+                    <div class="container">
+                      <ul class="d-flex flex-column gap-2 list-unstyled">
+                        <li>
+                          <a class="main-nav-link" href="#">Setting</a>
+                        </li>
+                        <li>
+                          <a class="main-nav-link" href="#">Sign In</a>
+                        </li>
+                        <li>
+                          <a class="main-nav-link" href="#">Sign Up</a>
+                        </li>
+                        <li>
+                          <a class="main-nav-link" href="#">Password Reset</a>
+                        </li>
+                        <li>
+                          <a class="main-nav-link" href="#">Error</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </li>
-                <li>
-                  <a class="main-nav-link" href="#">Documentation</a>
+                <li class="dropdown">
+                  <a
+                    class="main-nav-link"
+                    id="doc"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    href="#"
+                    >Documentation</a
+                  >
+                  <div
+                    class="dropdown-menu dropdown-new p-3"
+                    aria-labelledby="doc"
+                  >
+                    <div class="container">
+                      <!-- 1 -->
+                      <a
+                        href="#"
+                        class="d-flex py-3 mobile-nav-end-borderBot text-decoration-none"
+                      >
+                        <div class="me-3">
+                          <svg
+                            width="40"
+                            height="40"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g fill="none" fill-rule="evenodd">
+                              <path d="M0 0h24v24H0z"></path>
+                              <path
+                                d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z"
+                                fill="#335EEA"
+                                opacity=".3"
+                              ></path>
+                              <path
+                                d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z"
+                                fill="#335EEA"
+                              ></path>
+                              <rect
+                                fill="#335EEA"
+                                opacity=".3"
+                                x="7"
+                                y="10"
+                                width="5"
+                                height="2"
+                                rx="1"
+                              ></rect>
+                              <rect
+                                fill="#335EEA"
+                                opacity=".3"
+                                x="7"
+                                y="14"
+                                width="9"
+                                height="2"
+                                rx="1"
+                              ></rect>
+                            </g>
+                          </svg>
+                        </div>
+                        <div>
+                          <h1
+                            class="text-uppercase footer-header mb-1 text-primary"
+                          >
+                            Documentation
+                          </h1>
+                          <p class="text-info mb-0">Customizing and building</p>
+                        </div>
+                      </a>
+
+                      <!-- 2 -->
+                      <a
+                        href="#"
+                        class="d-flex py-3 mobile-nav-end-borderY text-decoration-none"
+                      >
+                        <div class="me-3">
+                          <svg
+                            width="40"
+                            height="40"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g fill="none" fill-rule="evenodd">
+                              <path d="M0 0h24v24H0z"></path>
+                              <rect
+                                fill="#335EEA"
+                                x="4"
+                                y="4"
+                                width="7"
+                                height="7"
+                                rx="1.5"
+                              ></rect>
+                              <path
+                                d="M5.5 13h4a1.5 1.5 0 011.5 1.5v4A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-4A1.5 1.5 0 015.5 13zm9-9h4A1.5 1.5 0 0120 5.5v4a1.5 1.5 0 01-1.5 1.5h-4A1.5 1.5 0 0113 9.5v-4A1.5 1.5 0 0114.5 4zm0 9h4a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z"
+                                fill="#335EEA"
+                                opacity=".3"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        <div>
+                          <h1
+                            class="text-uppercase footer-header mb-1 text-primary"
+                          >
+                            Components
+                          </h1>
+                          <p class="text-info mb-0">Full list of components</p>
+                        </div>
+                      </a>
+
+                      <!-- 3 -->
+                      <a
+                        href="#"
+                        class="d-flex align-items-center py-3 text-decoration-none"
+                      >
+                        <div class="me-3">
+                          <svg
+                            width="40"
+                            height="40"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g fill="none" fill-rule="evenodd">
+                              <path d="M0 0h24v24H0z"></path>
+                              <path
+                                d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z"
+                                fill="#335EEA"
+                                opacity=".3"
+                              ></path>
+                              <rect
+                                fill="#335EEA"
+                                x="6"
+                                y="11"
+                                width="9"
+                                height="2"
+                                rx="1"
+                              ></rect>
+                              <rect
+                                fill="#335EEA"
+                                x="6"
+                                y="15"
+                                width="5"
+                                height="2"
+                                rx="1"
+                              ></rect>
+                            </g>
+                          </svg>
+                        </div>
+                        <div>
+                          <h1
+                            class="text-uppercase footer-header mb-1 text-primary"
+                          >
+                            Changelog
+                          </h1>
+                          <p class="text-info mb-0">Keep track of changes</p>
+                        </div>
+
+                        <span
+                          class="rounded-pill d-inline-flex py-1 px-3 price-pill ms-auto"
+                        >
+                          <span class="text-uppercase fs-sm text-primary"
+                            >2.1.0</span
+                          >
+                        </span>
+                      </a>
+                    </div>
+                  </div>
                 </li>
               </ul>
             </nav>
@@ -86,7 +579,7 @@
                         <a class="main-nav-link" href="#">Coworking</a>
                       </li>
                       <li>
-                        <a class="main-nav-link" href="#">Rental</a>
+                        <a class="main-nav-link" href="rental.html">Rental</a>
                       </li>
                       <li>
                         <a class="main-nav-link" href="#">Job Listing</a>
@@ -123,7 +616,7 @@
                         </h1>
                       </li>
                       <li>
-                        <a class="main-nav-link" href="#">Basic</a>
+                        <a class="main-nav-link" href="index.html">Basic</a>
                       </li>
                       <li>
                         <a class="main-nav-link" href="#">Startup</a>
@@ -224,7 +717,7 @@
                         </h1>
                       </li>
                       <li>
-                        <a class="main-nav-link" href="#">Basic</a>
+                        <a class="main-nav-link" href="index.html">Basic</a>
                       </li>
                       <li>
                         <a class="main-nav-link" href="#">Cover</a>
@@ -285,7 +778,9 @@
                         <a class="main-nav-link" href="#">Sidebar: Fluid</a>
                       </li>
                       <li>
-                        <a class="main-nav-link" href="#">Basic Grid</a>
+                        <a class="main-nav-link" href="index.html"
+                          >Basic Grid</a
+                        >
                       </li>
                     </ul>
                   </div>
@@ -1140,7 +1635,7 @@
             <div class="col-md-6">
               <!-- card-1 -->
               <div
-                class="card overflow-hidden mb-5 mb-lg-0 card1-over2 slideBot"
+                class="card overflow-hidden mb-5 mb-lg-0 card1-over2 slideBotCard"
               >
                 <div class="card-body py-5 text-center">
                   <div class="row justify-content-center">
@@ -1230,7 +1725,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 slideBot">
+            <div class="col-md-6 slideBotCard">
               <!-- card-2 -->
               <div class="card overflow-hidden card2-enter1">
                 <div class="card-body py-5 text-center">
@@ -1373,7 +1868,7 @@
           </div>
         </div>
       </section>
-      <section class="padding-y-lg footer">
+      <section class="padding-y-lg footer footer-home">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-xl-3 col-md-4 col-12">
@@ -1396,7 +1891,9 @@
                     />
                   </svg>
                 </div>
-                <div class=""><p class="mb-2 d-inline footerQuote"></p></div>
+                <div class="">
+                  <p class="mb-2 d-inline-block footerQuote"></p>
+                </div>
                 <ul class="d-flex gap-3 list-unstyled">
                   <li class="slideTopAll">
                     <a class="footer-nav-link" href="#"
@@ -1556,6 +2053,6 @@
       </section>
     </main>
 
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="/js/home.js"></script>
   </body>
 </html>
